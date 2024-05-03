@@ -87,7 +87,7 @@ export default function People() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full p-2 sm:p-8 lg:px-16">
               <div className="text-center sm:text-start">
                 <h2 className="text-3xl text-gray-950 font-semibold mb-2">
-                  Create
+                  Distribute
                 </h2>
                 <h4 className="text-xl text-gray-950 mb-4">
                   Advanced research software
@@ -121,7 +121,7 @@ export default function People() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full p-2 sm:p-8 lg:px-16">
               <div className="text-center sm:text-start">
                 <h2 className="text-3xl text-gray-950 font-semibold mb-2">
-                  Create
+                  Collect
                 </h2>
                 <h4 className="text-xl text-gray-950 mb-4">
                   Advanced research software
@@ -155,7 +155,7 @@ export default function People() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full p-2 sm:p-8 lg:px-16">
               <div className="text-center sm:text-start">
                 <h2 className="text-3xl text-gray-950 font-semibold mb-2">
-                  Create
+                  Analyze
                 </h2>
                 <h4 className="text-xl text-gray-950 mb-4">
                   Advanced research software
