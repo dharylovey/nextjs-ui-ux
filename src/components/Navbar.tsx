@@ -43,8 +43,12 @@ export default function Navbar() {
           </ul>
           <div className="hidden sm:block gap-4">
             <div className="flex gap-3">
-              <Button>Login</Button>
-              <Button variant={"secondary"}>Signup</Button>
+              <Button >
+                <Link href="/login">Login</Link>
+              </Button>
+              <Button variant={"secondary"}>
+                <Link href="/signup">Signup</Link>
+              </Button>
             </div>
           </div>
         </div>

@@ -4,7 +4,10 @@ import Hero from "@/components/Hero";
 import Divider from "@/components/Divider";
 import People from "@/components/People";
 
-export default function Home() {
+export const dynamic = 'force-dynamic'
+
+export default async function Home() {
+
   return (
     <>
       <Hero />
