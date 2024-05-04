@@ -1,5 +1,5 @@
+'use client'
 import Link from "next/link";
-
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -11,10 +11,18 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
+
 export default function SignUpForm() {
   return (
-    <div className="">
-      <Card className="mx-auto max-w-sm flex flex-col mt-[30vh]">
+    <>
+      <div className="flex max-w-sm mx-auto mt-[25vh]">
+        <Button
+          className="flex justify-center items-center"
+        >
+          <Link href={"/"}>Home</Link>
+        </Button>
+      </div>
+      <Card className="mx-auto max-w-sm flex flex-col mt-4">
         <CardHeader>
           <CardTitle className="text-2xl">Signup</CardTitle>
           <CardDescription>Enter your email below to signup</CardDescription>
@@ -51,6 +59,6 @@ export default function SignUpForm() {
           </div>
         </CardContent>
       </Card>
-    </div>
+    </>
   );
 }

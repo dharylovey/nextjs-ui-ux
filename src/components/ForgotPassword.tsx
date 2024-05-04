@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -9,11 +8,20 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import Link from "next/link";
+
 
 export default function SignUpForm() {
   return (
-    <div className="">
-      <Card className="mx-auto max-w-sm flex flex-col mt-[30vh]">
+    <>
+      <div className="flex max-w-sm mx-auto mt-[25vh]">
+        <Button
+          className="flex justify-center items-center"
+        >
+          <Link href={"/"}>Home</Link>
+        </Button>
+      </div>
+      <Card className="mx-auto max-w-sm flex flex-col mt-4">
         <CardHeader>
           <CardTitle className="text-2xl">Forgot Password</CardTitle>
           <CardDescription>Enter your email below</CardDescription>
@@ -29,13 +37,13 @@ export default function SignUpForm() {
                 required
               />
             </div>
-            
+
             <Button type="submit" className="w-full">
               Forgot Password
             </Button>
           </div>
         </CardContent>
       </Card>
-    </div>
+    </>
   );
 }
