@@ -32,8 +32,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <title>{metadata.title && `${metadata.title} | `}</title>
+        <meta name="description" content={metadata.description || ''} />
       </Head>
       <body className={cn(inter.variable, 'min-h-screen bg-background antialiased')}>
         <Navbar />
